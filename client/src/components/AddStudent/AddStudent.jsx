@@ -73,8 +73,8 @@ class AddStudent extends Component {
             required
             id="enrollnumber"
           />
-          <button type="submit" className="Add-Student-Submit fa fa-plus"></button>
-          <button type="reset" className="Add-Student-Reset fa fa-refresh"></button>
+          <button type="submit" className="Add-Student-Submit">Submit</button>
+          <button type="reset" className="Add-Student-Reset">Reset</button>
         </form>
         <ToastContainer />
       </div>

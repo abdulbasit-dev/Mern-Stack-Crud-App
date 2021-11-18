@@ -63,7 +63,7 @@ class Home extends Component {
 
     return (
       <div className="Table-Wrapper">
-        <h1>Students:</h1>
+        <h1>Students </h1>
         <SearchStudents searchStudents={this.searchStudents} />
         <table className="Table">
           <thead>

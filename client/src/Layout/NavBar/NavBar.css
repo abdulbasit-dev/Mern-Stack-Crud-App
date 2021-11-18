@@ -1,5 +1,5 @@
 .NavBar-Wrapper {
-  background-color: #6200ea;
+  background-color: #0A0A23;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -10,6 +10,7 @@
 .NavBar-Title {
   font-weight: lighter;
   padding-left: 1rem;
+  font-weight: 500;
 }
 
 .NavBar-Link {

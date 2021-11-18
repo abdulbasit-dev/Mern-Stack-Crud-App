@@ -87,7 +87,7 @@ class EditStudent extends Component {
             className="Edit-Student-Input"
             id="enrollnumber"
           />
-          <button type="submit" className="Edit-Student-Submit fa fa-pencil"></button>
+          <button type="submit" className="Edit-Student-Submit">Update</button>
         </form>
         <ToastContainer />
       </div>

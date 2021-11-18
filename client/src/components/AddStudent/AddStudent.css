@@ -19,22 +19,25 @@
 }
 
 .Add-Student-Submit, .Add-Student-Reset {
-  width: 45px;
+  width: 100px;
   height: 40px;
-  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  color: #0a0a23;
   border: none;
   margin-left: 18px;
-  border-radius: 2px;
   cursor: pointer;
   outline: none;
 }
 
 .Add-Student-Submit {
-  background-color: #6200ea;
+  background-color: #f1a02a;
+  font-weight: 500;
 }
 
 .Add-Student-Reset {
-  background-color: red
+  background-color: #333;
+  color: white;
 }
 
 label {

@@ -7,7 +7,7 @@ import Avatar from 'react-avatar';
 const Student = ({ _id, name, email, enrollnumber, removeStudent }) => {
 
   return(
-    <tr>
+    <tr className="data">
       <td>{ name }</td>
       <td>{ email }</td>
       <td>{ enrollnumber }</td>
