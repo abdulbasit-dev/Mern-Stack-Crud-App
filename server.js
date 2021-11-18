@@ -7,7 +7,6 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(bodyParser.json());
-app.use(express.static('client'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(require('cors')());
 app.use(require('helmet')());
